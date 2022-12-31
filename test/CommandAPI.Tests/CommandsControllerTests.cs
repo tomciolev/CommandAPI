@@ -237,7 +237,6 @@ namespace CommandAPI.Tests
             var controller = new CommandsController(mockRepo.Object, mapper);
             var result = controller.DeleteCommand(0);
             Assert.IsType<NotFoundResult>(result);
-
         }
     }
 }
