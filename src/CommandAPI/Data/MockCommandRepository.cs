@@ -48,7 +48,7 @@ namespace CommandAPI.Data
             throw new NotImplementedException();
         }
 
-        public void UpdateCommand(Command cmd)
+        public void EditCommand(Command cmd)
         {
             throw new NotImplementedException();
         }
